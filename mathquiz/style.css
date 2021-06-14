@@ -1,0 +1,133 @@
+body
+{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login_heading
+{
+   color: white; 
+   font-family: 'Langar', cursive;
+   font-size: 100px;
+}
+
+.login_div
+{
+	background: white;
+    padding: 20px;
+    z-index: 30;
+    float: none;
+    border: ridge;
+}
+
+#sign_in_heading
+{
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+}
+
+.text_inputs
+{
+    padding: 5px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.button
+{
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    font-size: 20px;
+}
+
+h4
+{
+    color:white;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.player_scores
+{
+    margin: 20px;
+    background: white;
+    padding: 10px;
+    z-index: 30;
+    float: left;
+    border: ridge;
+    width: 150px;
+}
+
+#math_quiz_heading
+{
+   color: white; 
+   font-family: 'Langar', cursive;
+   font-size: 70px;
+}
+
+.qna
+{
+    margin: 10px;
+    background: white;
+    padding: 20px;
+    z-index: 30;
+    float: none;
+    width: fit-content;
+    height: fit-content;
+    border: double;
+    border-color: crimson;
+}
+
+.numbers_enter
+{
+    margin: 10px;
+    background: white;
+    padding: 20px;
+    z-index: 30;
+    float: none;
+    border: ridge;
+}
+
+label 
+{
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold; 
+}
+
+#player1_name, #player2_name
+{
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+}
+
+#output {
+    margin: 10px;
+    background: white;
+    padding: 20px;
+    z-index: 30;
+    float: none;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+#number_questions {
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    display: inline-block;
+}

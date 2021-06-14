@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>The Math Quiz!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&family=Mukta:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="player_scores">
+        <h4 id="player1_name"></h4> <span id="player1_score"></span>
+        <br>
+        <h4 id="player2_name"></h4> <span id="player2_score"></span>
+    </div>
+
+    <div class="container">
+        <center>
+            <h2 id="math_quiz_heading">The Math Quiz</h2>
+            <br>
+            <div class="qna">
+                <h3 id="sign_in_heading">Question Turn: <span id="player_question"></span></h3>
+                <br>
+                <h3 id="sign_in_heading">Answer Turn: <span id="player_answer"></span></h3>
+                <br>
+            </div>
+            <div class="col-lg-6" id="output" style="visibility: hidden;"></div>
+            <br>
+            <div class=" col-lg-5 numbers_enter">
+                <label>Enter 2 Numbers To Be Multiplied</label>
+                <br> <br>
+                <input type="text" id="no1" placeholder="Number 1" class="form-control">
+                <br>
+                <input type="text" id="no2" placeholder="Number 2" class="form-control">
+                <br>
+                <button style="width: 50%;" onclick ="send()" class="btn btn-danger">Send</button>
+            </div>
+            <br><br>
+        </center>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
